@@ -10,7 +10,7 @@ DELTA ={
     pg.K_DOWN: (0,+5),
     pg.K_LEFT:(-5,0),
     pg.K_RIGHT:(+5,0),
-}
+}#こうかとん動くプログラム
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 
