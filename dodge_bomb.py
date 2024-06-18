@@ -81,7 +81,7 @@ def main():
         screen.blit(kk_img, kk_rct)
        
         idx = min(tmr // 500 , 9)
-        bb_rct = bb_imgs[idx].get_rect(center=bb_rct.center)
+        bb_rct = bb_imgs[idx].get_rect(center=bb_rct.center)#爆弾の画像が更新されるにつれても位置が変わらないようにしている
         avx = vx * saccs[idx]
         avy = vy * saccs[idx]
         bb_rct.move_ip(avx,avy)
